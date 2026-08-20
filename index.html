@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>eduKaEVA — Academia de repaso | La enseñanza que se adapta a ti</title>
+
+  <meta
+    name="description"
+    content="Academia de repaso en Calle Huelva 3. Primaria, ESO, Bachillerato, Ciclos Formativos, acceso a Universidad y Graduado en ESO +18 años. Matrícula gratis y clase de prueba gratis."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+  <!-- =========================================================
+       CABECERA
+  ========================================================== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+
+      <a href="#inicio" class="brand" aria-label="eduKaEVA — inicio">
+        <img
+          src="logoEva.png"
+          class="brand__logo"
+          alt="eduKaEVA"
+        >
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#niveles">Niveles</a>
+        <a href="#metodo">Método</a>
+        <a href="#galeria">La academia</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <div class="header__cta">
+        <a
+          href="https://wa.me/34634095394"
+          class="btn btn--ghost"
+          target="_blank"
+          rel="noopener"
+        >
+          WhatsApp
+        </a>
+
+        <button
+          class="btn btn--solid"
+          id="openTrialBtn"
+          type="button"
+        >
+          Clase de prueba gratis
+        </button>
+      </div>
+
+      <button
+        class="burger"
+        id="burger"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+        type="button"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+
+  <!-- =========================================================
+       HERO
+  ========================================================== -->
+  <section class="hero" id="inicio">
+    <div class="hero__inner">
+
+      <div class="hero__text">
+
+        <p class="eyebrow">
+          Academia de repaso · Calle Huelva, 3
+        </p>
+
+        <h1>
+          La enseñanza que <em>se adapta</em> a ti.
+        </h1>
+
+        <p class="hero__lead">
+          En eduKaEVA preparamos a cada alumno a su propio ritmo:
+          Primaria, ESO, Bachillerato, acceso a Ciclos Formativos y
+          Universidad, y Graduado en ESO para mayores de 18 años.
+          Grupos reducidos, horarios flexibles y un plan de estudio
+          pensado para ti.
+        </p>
+
+        <div class="hero__actions">
+
+          <button
+            class="btn btn--solid btn--lg"
+            id="openTrialBtn2"
+            type="button"
+          >
+            Reserva tu clase de prueba
+          </button>
+
+          <a
+            href="#niveles"
+            class="btn btn--outline btn--lg"
+          >
+            Ver niveles
+          </a>
+
+        </div>
+
+        <div class="hero__badges">
+          <span>✓ Matrícula gratis</span>
+          <span>✓ Clase de prueba gratis</span>
+          <span>✓ Grupos de máx. 6 alumnos</span>
+        </div>
+
+      </div>
+
+
+      <div
+        class="hero__panel"
+        aria-label="Especialización de la academia"
+      >
+
+        <div class="panel">
+
+          <div class="panel__head">
+            <span class="panel__dot"></span>
+            <span>Especialistas en ciencias</span>
+          </div>
+
+          <ul class="panel__schedule" id="scheduleList">
+
+            <li>
+              <span class="day">Matemáticas</span>
+              <span class="slot">Clases especializadas</span>
+              <span class="tick">✓</span>
+            </li>
+
+            <li>
+              <span class="day">Física</span>
+              <span class="slot">Preparación completa</span>
+              <span class="tick">✓</span>
+            </li>
+
+            <li>
+              <span class="day">Química</span>
+              <span class="slot">Enfoque práctico</span>
+              <span class="tick">✓</span>
+            </li>
+
+            <li>
+              <span class="day">Material personalizado</span>
+              <span class="slot">Adaptado a cada alumno</span>
+              <span class="tick">✓</span>
+            </li>
+
+            <li>
+              <span class="day">Pruebas de examen</span>
+              <span class="slot">Simula el examen real</span>
+              <span class="tick">✓</span>
+            </li>
+
+          </ul>
+
+          <p class="panel__note">
+            Preparación especializada · Material propio · Seguimiento personalizado
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =========================================================
+       FRANJA DE CONFIANZA
+  ========================================================== -->
+  <section class="trust">
+
+    <div class="trust__inner">
+
+      <div class="trust__item">
+        <strong>Máx. 6</strong>
+        <span>alumnos por profesor/a</span>
+      </div>
+
+      <div class="trust__item">
+        <strong>15h–20h</strong>
+        <span>franja horaria diaria</span>
+      </div>
+
+      <div class="trust__item">
+        <strong>100%</strong>
+        <span>horario flexible</span>
+      </div>
+
+      <div class="trust__item">
+        <strong>0 €</strong>
+        <span>matrícula y clase de prueba</span>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================================================
+       NIVELES
+  ========================================================== -->
+  <section class="section" id="niveles">
+
+    <div class="section__inner">
+
+      <p class="eyebrow eyebrow--center">
+        Qué preparamos
+      </p>
+
+      <h2 class="section__title">
+        Un plan para cada etapa
+      </h2>
+
+      <p class="section__lead">
+        Acompañamos al alumno desde primaria hasta la puerta de la
+        universidad — y también a quien vuelve a estudiar de adulto.
+        Cada etapa, con su propio enfoque.
+      </p>
+
+
+      <div
+        class="route"
+        id="route"
+        aria-label="Ruta académica de eduKaEVA"
+      >
+
+        <div
+          class="route__line"
+          aria-hidden="true"
+        ></div>
+
+        <button
+          class="route__stop"
+          data-stop="0"
+          type="button"
+        >
+          <span class="route__dot"></span>
+          <span class="route__label">Primaria</span>
+        </button>
+
+        <button
+          class="route__stop"
+          data-stop="1"
+          type="button"
+        >
+          <span class="route__dot"></span>
+          <span class="route__label">ESO</span>
+        </button>
+
+        <button
+          class="route__stop"
+          data-stop="2"
+          type="button"
+        >
+          <span class="route__dot"></span>
+          <span class="route__label">Bachillerato</span>
+        </button>
+
+        <button
+          class="route__stop"
+          data-stop="3"
+          type="button"
+        >
+          <span class="route__dot"></span>
+          <span class="route__label">Ciclos Formativos</span>
+        </button>
+
+        <button
+          class="route__stop"
+          data-stop="4"
+          type="button"
+        >
+          <span class="route__dot"></span>
+          <span class="route__label">Universidad</span>
+        </button>
+
+      </div>
+
+
+      <div
+        class="route__detail"
+        id="routeDetail"
+      ></div>
+
+
+      <div class="levels-grid">
+
+        <article class="level-card">
+          <h3>Primaria</h3>
+          <p>
+            Refuerzo de lectoescritura, matemáticas y hábitos de
+            estudio desde los primeros cursos.
+          </p>
+        </article>
+
+        <article class="level-card">
+          <h3>ESO</h3>
+          <p>
+            Repaso por asignaturas, recuperación de pendientes y
+            preparación de exámenes.
+          </p>
+        </article>
+
+        <article class="level-card">
+          <h3>Bachillerato</h3>
+          <p>
+            Ciencias, Humanidades y Sociales. Foco en la EBAU y
+            en el expediente académico.
+          </p>
+        </article>
+
+        <article class="level-card">
+          <h3>Ciclos Formativos</h3>
+          <p>
+            Apoyo en módulos de Grado Medio y Superior para
+            no quedarte atrás.
+          </p>
+        </article>
+
+        <article class="level-card">
+          <h3>Acceso a Universidad</h3>
+          <p>
+            Preparación de pruebas de acceso y asignaturas puente
+            para mayores de 25 años.
+          </p>
+        </article>
+
+        <article class="level-card level-card--accent">
+          <h3>Graduado en ESO +18</h3>
+          <p>
+            Programa específico para adultos que quieren obtener
+            el título de Graduado en ESO.
+          </p>
+        </article>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================================================
+       MÉTODO
+  ========================================================== -->
+  <section class="section section--dark" id="metodo">
+
+    <div class="section__inner">
+
+      <p class="eyebrow eyebrow--center eyebrow--light">
+        Cómo trabajamos
+      </p>
+
+      <h2 class="section__title section__title--light">
+        Un método, no solo un repaso
+      </h2>
+
+      <div class="method-grid">
+
+        <article class="method-card">
+          <div class="method-card__icon">🧭</div>
+          <h3>Técnicas y planning de estudio</h3>
+          <p>
+            Enseñamos a organizar el tiempo, tomar apuntes y
+            planificar exámenes — no solo a repasar contenidos.
+          </p>
+        </article>
+
+        <article class="method-card">
+          <div class="method-card__icon">🕓</div>
+          <h3>Flexibilidad horaria</h3>
+          <p>
+            Clases todos los días entre las 15:00 y las 20:00 h.
+            Tú eliges los días y el tramo que mejor te encaje.
+          </p>
+        </article>
+
+        <article class="method-card">
+          <div class="method-card__icon">👥</div>
+          <h3>Grupos reducidos</h3>
+          <p>
+            Máximo 6 alumnos por profesor/a, para poder atender
+            de verdad a cada uno.
+          </p>
+        </article>
+
+        <article class="method-card">
+          <div class="method-card__icon">🎯</div>
+          <h3>Seguimiento personal</h3>
+          <p>
+            Revisamos el progreso de cada alumno y ajustamos
+            el plan cuando hace falta.
+          </p>
+        </article>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================================================
+       GALERÍA
+  ========================================================== -->
+  <section class="section" id="galeria">
+
+    <div class="section__inner">
+
+      <p class="eyebrow eyebrow--center">
+        La academia
+      </p>
+
+      <h2 class="section__title">
+        Así es estudiar en eduKaEVA
+      </h2>
+
+      <div class="gallery">
+
+        <figure class="gallery__item gallery__item--big">
+          <img
+            src="https://picsum.photos/seed/edukaeva-aula/900/700"
+            alt="Aula de estudio de eduKaEVA con grupo reducido de alumnos"
+            loading="lazy"
+          >
+          <figcaption>
+            Grupos reducidos, atención cercana
+          </figcaption>
+        </figure>
+
+        <figure class="gallery__item">
+          <img
+            src="https://picsum.photos/seed/edukaeva-profesor/600/500"
+            alt="Profesor de eduKaEVA resolviendo dudas a un alumno"
+            loading="lazy"
+          >
+          <figcaption>
+            Resolución de dudas, uno a uno
+          </figcaption>
+        </figure>
+
+        <figure class="gallery__item">
+          <img
+            src="https://picsum.photos/seed/edukaeva-apuntes/600/500"
+            alt="Alumna organizando su planning de estudio"
+            loading="lazy"
+          >
+          <figcaption>
+            Planning y técnicas de estudio
+          </figcaption>
+        </figure>
+
+        <figure class="gallery__item">
+          <img
+            src="https://picsum.photos/seed/edukaeva-biblioteca/600/500"
+            alt="Espacio de estudio de la academia eduKaEVA"
+            loading="lazy"
+          >
+          <figcaption>
+            Un espacio pensado para concentrarse
+          </figcaption>
+        </figure>
+
+        <figure class="gallery__item">
+          <img
+            src="https://picsum.photos/seed/edukaeva-bachiller/600/500"
+            alt="Alumnos de bachillerato preparando la EBAU"
+            loading="lazy"
+          >
+          <figcaption>
+            Preparación de Bachillerato y EBAU
+          </figcaption>
+        </figure>
+
+        <figure class="gallery__item">
+          <img
+            src="https://picsum.photos/seed/edukaeva-entrada/900/500"
+            alt="Entrada de la academia eduKaEVA en Calle Huelva"
+            loading="lazy"
+          >
+          <figcaption>
+            Te esperamos en Calle Huelva, 3
+          </figcaption>
+        </figure>
+
+      </div>
+
+      <p class="gallery__note">
+        * Imágenes de muestra — sustituir por fotografías reales de la academia.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================================================
+       CTA
+  ========================================================== -->
+  <section class="cta-strip">
+
+    <div class="cta-strip__inner">
+
+      <div>
+        <h2>Empieza con matrícula gratis</h2>
+        <p>
+          Y prueba tu primera clase sin compromiso, para comprobar
+          que encajamos contigo.
+        </p>
+      </div>
+
+      <button
+        class="btn btn--solid btn--lg"
+        id="openTrialBtn3"
+        type="button"
+      >
+        Quiero mi clase de prueba
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================================================
+       CONTACTO
+  ========================================================== -->
+  <section class="section" id="contacto">
+
+    <div class="section__inner section__inner--split">
+
+      <div class="contact-info">
+
+        <p class="eyebrow">
+          Contacto
+        </p>
+
+        <h2 class="section__title section__title--left">
+          Hablemos
+        </h2>
+
+        <p class="section__lead section__lead--left">
+          Escríbenos por WhatsApp o pásate por la academia.
+          Estaremos encantados de resolver tus dudas.
+        </p>
+
+        <ul class="contact-list">
+
+          <li>
+            <span class="contact-list__icon">📍</span>
+
+            <div>
+              <strong>Dirección</strong>
+              <span>Calle Huelva, 3</span>
+            </div>
+          </li>
+
+          <li>
+            <span class="contact-list__icon">🕐</span>
+
+            <div>
+              <strong>Horario de atención al cliente</strong>
+              <span>
+                Lunes a viernes, de 10:00 a 13:00 h
+              </span>
+            </div>
+          </li>
+
+          <li>
+            <span class="contact-list__icon">💬</span>
+
+            <div>
+              <strong>WhatsApp</strong>
+
+              <a
+                href="https://wa.me/34634095394"
+                target="_blank"
+                rel="noopener"
+              >
+                634 095 394
+              </a>
+            </div>
+          </li>
+
+        </ul>
+
+        <a
+          href="https://wa.me/34634095394"
+          class="btn btn--solid"
+          target="_blank"
+          rel="noopener"
+        >
+          Escribir por WhatsApp
+        </a>
+
+      </div>
+
+
+      <div class="contact-qr">
+
+        <div class="qr-card">
+
+          <img
+            src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&margin=10&color=000030&data=https://wa.me/34634095394"
+            alt="Código QR para contactar con eduKaEVA por WhatsApp"
+            width="220"
+            height="220"
+            loading="lazy"
+          >
+
+          <p>
+            Escanea y escríbenos directamente
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================================================
+       MODAL
+  ========================================================== -->
+  <div
+    class="modal"
+    id="trialModal"
+    aria-hidden="true"
+  >
+
+    <div
+      class="modal__backdrop"
+      data-close
+    ></div>
+
+    <div
+      class="modal__box"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modalTitle"
+    >
+
+      <button
+        class="modal__close"
+        data-close
+        aria-label="Cerrar"
+        type="button"
+      >
+        ✕
+      </button>
+
+      <h3 id="modalTitle">
+        Reserva tu clase de prueba gratis
+      </h3>
+
+      <p>
+        Cuéntanos un poco sobre ti y te contactaremos por WhatsApp.
+      </p>
+
+      <form id="trialForm">
+
+        <label>
+          Nombre
+
+          <input
+            type="text"
+            name="nombre"
+            required
+            placeholder="Tu nombre"
+          >
+        </label>
+
+        <label>
+          Nivel
+
+          <select name="nivel" required>
+
+            <option
+              value=""
+              disabled
+              selected
+            >
+              Selecciona un nivel
+            </option>
+
+            <option>Primaria</option>
+            <option>ESO</option>
+            <option>Bachillerato</option>
+            <option>Ciclos Formativos</option>
+            <option>Acceso a Universidad</option>
+            <option>Graduado en ESO +18</option>
+
+          </select>
+
+        </label>
+
+        <label>
+          Teléfono
+
+          <input
+            type="tel"
+            name="telefono"
+            required
+            placeholder="634 000 000"
+          >
+        </label>
+
+        <button
+          type="submit"
+          class="btn btn--solid btn--lg btn--block"
+        >
+          Enviar por WhatsApp
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================== -->
+  <footer class="footer">
+
+    <div class="footer__inner">
+
+      <a
+        href="#inicio"
+        class="brand brand--footer"
+      >
+        <img
+          src="logoEva.png"
+          class="brand__logo brand__logo--footer"
+          alt="eduKaEVA"
+        >
+      </a>
+
+      <p class="footer__slogan">
+        "La enseñanza que se adapta a ti"
+      </p>
+
+      <nav class="footer__nav">
+        <a href="#niveles">Niveles</a>
+        <a href="#metodo">Método</a>
+        <a href="#galeria">La academia</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <p class="footer__legal">
+        © <span id="year"></span> eduKaEVA · Calle Huelva, 3 · 634 095 394
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =========================================================
+       WHATSAPP FLOTANTE
+  ========================================================== -->
+  <a
+    href="https://wa.me/34634095394"
+    class="float-whatsapp"
+    target="_blank"
+    rel="noopener"
+    aria-label="Escríbenos por WhatsApp"
+  >
+    💬
+  </a>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
