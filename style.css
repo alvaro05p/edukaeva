@@ -1243,10 +1243,6 @@ li {
         grid-template-columns: 1fr;
     }
 
-    .hero__panel {
-        order: -1;
-    }
-
     .panel {
         transform: none;
         max-width: 420px;
